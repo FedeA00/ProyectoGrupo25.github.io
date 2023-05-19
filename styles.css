@@ -59,7 +59,7 @@ body{
 
 /** Img header **/
 .img-header{
-    background: url(../img-id/index.jpg);
+    background: url(img-id/index.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -126,56 +126,12 @@ body{
     background: #000000;
     margin:auto;
 }
-/* .about-us .free-content{
-    width: 100%;
-    margin-top: 100px;
-    background: #1B9CFC;
-    padding:30px;
-    
-}
-.about-us .free-content h4{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 400;
-    color:#ffffff;
 
-    
-    
-}
-.about-us .free-content .icons{
-    width: 90%;
-    margin:30px auto;
-    display: flex;
-    justify-content: center;
-}
-.about-us .free-content .icons > div{width: 100%; margin:0px 30px;}
-.about-us .free-content .icons > div > .span-icon{
-    width:100%;
-    font-size: 40px;
-    color:#ffffff;
-    display: flex;
-    justify-content: center;
-    
-}
-.about-us .free-content .icons > div h6{
-    font-size: 25px;
-    color:#ffffff;
-    text-align: center;
-    font-weight:normal;
-    margin:20px 0px 5px 0px;
-    
-}
-.about-us .free-content .icons > div p{
-    font-size: 18px;
-    text-align: center;
-    color:#ffffff;
-} */
-
-/** Gallery **/
+/** Galeria **/
 .gallery-section{
     width: 100%;
     font-family: 'Kalam', cursive;
-    /* Font de cuadro celeste */
+    
 }
 .animal-icon{
     width: 100%;
