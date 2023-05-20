@@ -82,3 +82,4 @@ function kelvinToCentigrade(temp){
 function clearHTML(){
     result.innerHTML = '';
 }
+
