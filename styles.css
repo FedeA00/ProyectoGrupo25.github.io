@@ -126,12 +126,56 @@ body{
     background: #000000;
     margin:auto;
 }
+/* .about-us .free-content{
+    width: 100%;
+    margin-top: 100px;
+    background: #1B9CFC;
+    padding:30px;
+    
+}
+.about-us .free-content h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color:#ffffff;
 
-/** Galeria **/
+    
+    
+}
+.about-us .free-content .icons{
+    width: 90%;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+}
+.about-us .free-content .icons > div{width: 100%; margin:0px 30px;}
+.about-us .free-content .icons > div > .span-icon{
+    width:100%;
+    font-size: 40px;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    
+}
+.about-us .free-content .icons > div h6{
+    font-size: 25px;
+    color:#ffffff;
+    text-align: center;
+    font-weight:normal;
+    margin:20px 0px 5px 0px;
+    
+}
+.about-us .free-content .icons > div p{
+    font-size: 18px;
+    text-align: center;
+    color:#ffffff;
+} */
+
+/** Gallery **/
 .gallery-section{
     width: 100%;
     font-family: 'Kalam', cursive;
-    
+    /* Font de cuadro celeste */
 }
 .animal-icon{
     width: 100%;
@@ -350,6 +394,97 @@ footer p:hover{
 /* Efecto de la imagen */
 
 
+
+
+/* -------------------------------------------------------------------------------------- */
+/* --------------------------Estilos de clima-- responsive 1----------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.weather-content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    max-width: 300px;
+    text-align: center;
+    padding: 5px 5px 20px;
+    margin: 10% auto 0;
+    background-color: #546785;
+    border-radius: 9px;
+}
+.weather-content h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.weather-content p{
+    color: #cfcfd9;
+}
+.result{
+    margin-bottom: 8%;
+}
+.result p{
+    margin: 5px 0 5px;
+}
+.result h2{
+    font-size: 70px;
+    line-height: 70px;
+    margin: -10px 0 10px;
+    color: #fff;
+}
+.result h5{
+    font-size: 21px;
+    margin: 2px;
+    color: #fff;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input[type="text"], form input[type="submit"], form select{
+    width: 100%;
+    margin: 0px 0 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+form input[type="submit"]{
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #14d4a5;
+    border: 1px solid #14d4a5;
+    color: #fff;
+    font-weight: 600;
+    transition: width 1s;
+}
+form input[type="submit"]:hover{
+    width: 50%;
+}
+.alert-message {
+    margin: 24px 0 0;
+    color: red!important;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* --------------------------Estilos de clima-- responsive 2----------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+
+
+
+
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -420,12 +555,100 @@ footer p:hover{
     grid-gap: 20px;
 }
 
+/* -------------------------------------------------------------------------------------- */
+/* --------------------------Estilos de clima-- responsive 1----------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.weather-content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    max-width: 201px;
+    text-align: center;
+    padding: 5px 5px 20px;
+    margin: 10% auto 0;
+    background-color: #546785;
+    border-radius: 9px;
+}
+.weather-content h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.weather-content p{
+    color: #cfcfd9;
+}
+.result{
+    margin-bottom: 8%;
+}
+.result p{
+    margin: 5px 0 5px;
+}
+.result h2{
+    font-size: 70px;
+    line-height: 70px;
+    margin: -10px 0 10px;
+    color: #fff;
+}
+.result h5{
+    font-size: 21px;
+    margin: 2px;
+    color: #fff;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input[type="text"], form input[type="submit"], form select{
+    width: 100%;
+    margin: 0px 0 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+form input[type="submit"]{
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #14d4a5;
+    border: 1px solid #14d4a5;
+    color: #fff;
+    font-weight: 600;
+    transition: width 1s;
+}
+form input[type="submit"]:hover{
+    width: 50%;
+}
+.alert-message {
+    margin: 24px 0 0;
+    color: red!important;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* --------------------------Estilos de clima-- responsive 2----------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+
+
+
+
 
 }
 
 
-
-//* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
 /* -------------------------------Estilos de clima--------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 
@@ -508,11 +731,4 @@ form input[type="submit"]:hover{
 
 /* -------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
-/* -------------------------------------------------------------------------------------- */
-
-
-
-
-
-
 /* -------------------------------------------------------------------------------------- */
