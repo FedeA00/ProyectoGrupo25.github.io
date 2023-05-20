@@ -2,7 +2,7 @@ const APP_ID = '2a2134109010da07029cc7913aa72542';
 
 const fetchData = position => {
     const { latitude, longitude } = position.coords;
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${APP_ID}`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&APPID=${APP_ID}`)
         .then(response => response.json())
         .then(data => setWeatherData(data));
 }
